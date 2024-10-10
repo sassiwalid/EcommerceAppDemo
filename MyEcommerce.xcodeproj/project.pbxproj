@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		38E817BF2CB8540200086B2A /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 38E817BE2CB8540200086B2A /* Networking */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		38E8179C2CB84D6600086B2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		38E8178B2CB84D6500086B2A /* MyEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E8179B2CB84D6600086B2A /* MyEcommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEcommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E817A52CB84D6600086B2A /* MyEcommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEcommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E817B92CB852AC00086B2A /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E817BF2CB8540200086B2A /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +81,11 @@
 		38E817822CB84D6500086B2A = {
 			isa = PBXGroup;
 			children = (
+				38E817B82CB84ED600086B2A /* Packages */,
 				38E8178D2CB84D6500086B2A /* MyEcommerce */,
 				38E8179E2CB84D6600086B2A /* MyEcommerceTests */,
 				38E817A82CB84D6600086B2A /* MyEcommerceUITests */,
+				38E817BA2CB8539200086B2A /* Frameworks */,
 				38E8178C2CB84D6500086B2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +98,21 @@
 				38E817A52CB84D6600086B2A /* MyEcommerceUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		38E817B82CB84ED600086B2A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				38E817B92CB852AC00086B2A /* Networking */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		38E817BA2CB8539200086B2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +135,7 @@
 			);
 			name = MyEcommerce;
 			packageProductDependencies = (
+				38E817BE2CB8540200086B2A /* Networking */,
 			);
 			productName = MyEcommerce;
 			productReference = 38E8178B2CB84D6500086B2A /* MyEcommerce.app */;
@@ -195,6 +219,9 @@
 			);
 			mainGroup = 38E817822CB84D6500086B2A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				38E817BD2CB8540200086B2A /* XCLocalSwiftPackageReference "Packages/Networking" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 38E8178C2CB84D6500086B2A /* Products */;
 			projectDirPath = "";
@@ -558,6 +585,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		38E817BD2CB8540200086B2A /* XCLocalSwiftPackageReference "Packages/Networking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Networking;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38E817BE2CB8540200086B2A /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38E817832CB84D6500086B2A /* Project object */;
 }
