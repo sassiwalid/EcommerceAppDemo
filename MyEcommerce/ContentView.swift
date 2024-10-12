@@ -8,6 +8,7 @@
 import SwiftUI
 
 import Networking
+import Repository
 
 struct ContentView: View {
     var body: some View {

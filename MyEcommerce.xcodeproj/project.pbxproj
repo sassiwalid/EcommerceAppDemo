@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38AB65E22CBA88CE00E1D034 /* Repository in Frameworks */ = {isa = PBXBuildFile; productRef = 38AB65E12CBA88CE00E1D034 /* Repository */; };
 		38E817BF2CB8540200086B2A /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 38E817BE2CB8540200086B2A /* Networking */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38AB65DF2CBA888600E1D034 /* Repository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Repository; sourceTree = "<group>"; };
 		38E8178B2CB84D6500086B2A /* MyEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E8179B2CB84D6600086B2A /* MyEcommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEcommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E817A52CB84D6600086B2A /* MyEcommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEcommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AB65E22CBA88CE00E1D034 /* Repository in Frameworks */,
 				38E817BF2CB8540200086B2A /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +106,7 @@
 		38E817B82CB84ED600086B2A /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				38AB65DF2CBA888600E1D034 /* Repository */,
 				38E817B92CB852AC00086B2A /* Networking */,
 			);
 			path = Packages;
@@ -136,6 +140,7 @@
 			name = MyEcommerce;
 			packageProductDependencies = (
 				38E817BE2CB8540200086B2A /* Networking */,
+				38AB65E12CBA88CE00E1D034 /* Repository */,
 			);
 			productName = MyEcommerce;
 			productReference = 38E8178B2CB84D6500086B2A /* MyEcommerce.app */;
@@ -221,6 +226,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				38E817BD2CB8540200086B2A /* XCLocalSwiftPackageReference "Packages/Networking" */,
+				38AB65E02CBA88CE00E1D034 /* XCLocalSwiftPackageReference "Packages/Repository" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 38E8178C2CB84D6500086B2A /* Products */;
@@ -587,6 +593,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		38AB65E02CBA88CE00E1D034 /* XCLocalSwiftPackageReference "Packages/Repository" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Repository;
+		};
 		38E817BD2CB8540200086B2A /* XCLocalSwiftPackageReference "Packages/Networking" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Networking;
@@ -594,6 +604,10 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		38AB65E12CBA88CE00E1D034 /* Repository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Repository;
+		};
 		38E817BE2CB8540200086B2A /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
