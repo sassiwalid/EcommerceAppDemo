@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38AB65E22CBA88CE00E1D034 /* Repository in Frameworks */ = {isa = PBXBuildFile; productRef = 38AB65E12CBA88CE00E1D034 /* Repository */; };
-		38E817BF2CB8540200086B2A /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 38E817BE2CB8540200086B2A /* Networking */; };
+		3822D3332CC2E56F009374EF /* Utils in Frameworks */ = {isa = PBXBuildFile; productRef = 3822D3322CC2E56F009374EF /* Utils */; };
+		38958B292CC053DF00FECB60 /* BasketFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 38958B282CC053DF00FECB60 /* BasketFeature */; };
+		38AB65F02CBACF3B00E1D034 /* ProductsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 38AB65EF2CBACF3B00E1D034 /* ProductsFeature */; };
+		38CD379B2CC29598009D657A /* BasketAbstraction in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD379A2CC29598009D657A /* BasketAbstraction */; };
+		38CD379D2CC29598009D657A /* DIAbstraction in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD379C2CC29598009D657A /* DIAbstraction */; };
+		38CD379F2CC29598009D657A /* ProductAbstraction in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD379E2CC29598009D657A /* ProductAbstraction */; };
+		38CD37A12CC29598009D657A /* UserAbstraction in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37A02CC29598009D657A /* UserAbstraction */; };
+		38CD37A32CC2959F009D657A /* BasketDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37A22CC2959F009D657A /* BasketDomain */; };
+		38CD37A52CC2959F009D657A /* ProductDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37A42CC2959F009D657A /* ProductDomain */; };
+		38CD37A72CC2959F009D657A /* UserDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37A62CC2959F009D657A /* UserDomain */; };
+		38CD37A92CC295A6009D657A /* BasketService in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37A82CC295A6009D657A /* BasketService */; };
+		38CD37AB2CC295A6009D657A /* ProductService in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37AA2CC295A6009D657A /* ProductService */; };
+		38CD37AD2CC295A6009D657A /* UserService in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37AC2CC295A6009D657A /* UserService */; };
+		38CD37AF2CC295AC009D657A /* BasketRepository in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37AE2CC295AC009D657A /* BasketRepository */; };
+		38CD37B12CC295AC009D657A /* ProductRepository in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37B02CC295AC009D657A /* ProductRepository */; };
+		38CD37B32CC295AC009D657A /* UserRepository in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37B22CC295AC009D657A /* UserRepository */; };
+		38CD37B52CC29665009D657A /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 38CD37B42CC29665009D657A /* API */; };
+		38F43DE22CBC0ADE002EACA3 /* LoginFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 38F43DE12CBC0ADE002EACA3 /* LoginFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +45,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38958B262CC052AC00FECB60 /* BasketFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BasketFeature; sourceTree = "<group>"; };
 		38AB65DF2CBA888600E1D034 /* Repository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Repository; sourceTree = "<group>"; };
+		38AB65E32CBA8A4900E1D034 /* Abstraction */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Abstraction; sourceTree = "<group>"; };
+		38AB65E42CBA90F000E1D034 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		38AB65ED2CBACC6A00E1D034 /* ProductsFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ProductsFeature; path = Packages/Features/ProductsFeature; sourceTree = SOURCE_ROOT; };
 		38E8178B2CB84D6500086B2A /* MyEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E8179B2CB84D6600086B2A /* MyEcommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEcommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E817A52CB84D6600086B2A /* MyEcommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEcommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E817B92CB852AC00086B2A /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		38F43DDF2CBBFD2F002EACA3 /* LoginFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LoginFeature; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		3822D32F2CC2E403009374EF /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		38E8178D2CB84D6500086B2A /* MyEcommerce */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MyEcommerce;
@@ -59,8 +85,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38AB65E22CBA88CE00E1D034 /* Repository in Frameworks */,
-				38E817BF2CB8540200086B2A /* Networking in Frameworks */,
+				3822D3332CC2E56F009374EF /* Utils in Frameworks */,
+				38F43DE22CBC0ADE002EACA3 /* LoginFeature in Frameworks */,
+				38CD379D2CC29598009D657A /* DIAbstraction in Frameworks */,
+				38CD379B2CC29598009D657A /* BasketAbstraction in Frameworks */,
+				38CD37A72CC2959F009D657A /* UserDomain in Frameworks */,
+				38CD37AF2CC295AC009D657A /* BasketRepository in Frameworks */,
+				38CD37AB2CC295A6009D657A /* ProductService in Frameworks */,
+				38958B292CC053DF00FECB60 /* BasketFeature in Frameworks */,
+				38CD37B12CC295AC009D657A /* ProductRepository in Frameworks */,
+				38CD37A12CC29598009D657A /* UserAbstraction in Frameworks */,
+				38CD37A52CC2959F009D657A /* ProductDomain in Frameworks */,
+				38CD37A92CC295A6009D657A /* BasketService in Frameworks */,
+				38CD37AD2CC295A6009D657A /* UserService in Frameworks */,
+				38CD37B52CC29665009D657A /* API in Frameworks */,
+				38AB65F02CBACF3B00E1D034 /* ProductsFeature in Frameworks */,
+				38CD37B32CC295AC009D657A /* UserRepository in Frameworks */,
+				38CD37A32CC2959F009D657A /* BasketDomain in Frameworks */,
+				38CD379F2CC29598009D657A /* ProductAbstraction in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +123,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38AB65EC2CBACC2100E1D034 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				38958B262CC052AC00FECB60 /* BasketFeature */,
+				38F43DDF2CBBFD2F002EACA3 /* LoginFeature */,
+				38AB65ED2CBACC6A00E1D034 /* ProductsFeature */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		38E817822CB84D6500086B2A = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +158,10 @@
 		38E817B82CB84ED600086B2A /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				3822D32F2CC2E403009374EF /* Utilities */,
+				38AB65EC2CBACC2100E1D034 /* Features */,
+				38AB65E42CBA90F000E1D034 /* Domain */,
+				38AB65E32CBA8A4900E1D034 /* Abstraction */,
 				38AB65DF2CBA888600E1D034 /* Repository */,
 				38E817B92CB852AC00086B2A /* Networking */,
 			);
@@ -139,8 +195,24 @@
 			);
 			name = MyEcommerce;
 			packageProductDependencies = (
-				38E817BE2CB8540200086B2A /* Networking */,
-				38AB65E12CBA88CE00E1D034 /* Repository */,
+				38AB65EF2CBACF3B00E1D034 /* ProductsFeature */,
+				38F43DE12CBC0ADE002EACA3 /* LoginFeature */,
+				38958B282CC053DF00FECB60 /* BasketFeature */,
+				38CD379A2CC29598009D657A /* BasketAbstraction */,
+				38CD379C2CC29598009D657A /* DIAbstraction */,
+				38CD379E2CC29598009D657A /* ProductAbstraction */,
+				38CD37A02CC29598009D657A /* UserAbstraction */,
+				38CD37A22CC2959F009D657A /* BasketDomain */,
+				38CD37A42CC2959F009D657A /* ProductDomain */,
+				38CD37A62CC2959F009D657A /* UserDomain */,
+				38CD37A82CC295A6009D657A /* BasketService */,
+				38CD37AA2CC295A6009D657A /* ProductService */,
+				38CD37AC2CC295A6009D657A /* UserService */,
+				38CD37AE2CC295AC009D657A /* BasketRepository */,
+				38CD37B02CC295AC009D657A /* ProductRepository */,
+				38CD37B22CC295AC009D657A /* UserRepository */,
+				38CD37B42CC29665009D657A /* API */,
+				3822D3322CC2E56F009374EF /* Utils */,
 			);
 			productName = MyEcommerce;
 			productReference = 38E8178B2CB84D6500086B2A /* MyEcommerce.app */;
@@ -227,6 +299,12 @@
 			packageReferences = (
 				38E817BD2CB8540200086B2A /* XCLocalSwiftPackageReference "Packages/Networking" */,
 				38AB65E02CBA88CE00E1D034 /* XCLocalSwiftPackageReference "Packages/Repository" */,
+				38AB65E52CBA913500E1D034 /* XCLocalSwiftPackageReference "Packages/Domain" */,
+				38AB65EE2CBACF3B00E1D034 /* XCLocalSwiftPackageReference "Packages/Features/ProductsFeature" */,
+				38F43DE02CBC0ADE002EACA3 /* XCLocalSwiftPackageReference "Packages/Features/LoginFeature" */,
+				38958B272CC053DF00FECB60 /* XCLocalSwiftPackageReference "Packages/Features/BasketFeature" */,
+				3822D32D2CC2E18F009374EF /* XCRemoteSwiftPackageReference "RxSwift" */,
+				3822D3312CC2E56F009374EF /* XCLocalSwiftPackageReference "Packages/Utilities/Utils" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 38E8178C2CB84D6500086B2A /* Products */;
@@ -593,24 +671,119 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		3822D3312CC2E56F009374EF /* XCLocalSwiftPackageReference "Packages/Utilities/Utils" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Utilities/Utils;
+		};
+		38958B272CC053DF00FECB60 /* XCLocalSwiftPackageReference "Packages/Features/BasketFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Features/BasketFeature;
+		};
 		38AB65E02CBA88CE00E1D034 /* XCLocalSwiftPackageReference "Packages/Repository" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Repository;
+		};
+		38AB65E52CBA913500E1D034 /* XCLocalSwiftPackageReference "Packages/Domain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Domain;
+		};
+		38AB65EE2CBACF3B00E1D034 /* XCLocalSwiftPackageReference "Packages/Features/ProductsFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Features/ProductsFeature;
 		};
 		38E817BD2CB8540200086B2A /* XCLocalSwiftPackageReference "Packages/Networking" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/Networking;
 		};
+		38F43DE02CBC0ADE002EACA3 /* XCLocalSwiftPackageReference "Packages/Features/LoginFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Features/LoginFeature;
+		};
 /* End XCLocalSwiftPackageReference section */
 
-/* Begin XCSwiftPackageProductDependency section */
-		38AB65E12CBA88CE00E1D034 /* Repository */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Repository;
+/* Begin XCRemoteSwiftPackageReference section */
+		3822D32D2CC2E18F009374EF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
 		};
-		38E817BE2CB8540200086B2A /* Networking */ = {
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3822D3322CC2E56F009374EF /* Utils */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Networking;
+			productName = Utils;
+		};
+		38958B282CC053DF00FECB60 /* BasketFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BasketFeature;
+		};
+		38AB65EF2CBACF3B00E1D034 /* ProductsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductsFeature;
+		};
+		38CD379A2CC29598009D657A /* BasketAbstraction */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BasketAbstraction;
+		};
+		38CD379C2CC29598009D657A /* DIAbstraction */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DIAbstraction;
+		};
+		38CD379E2CC29598009D657A /* ProductAbstraction */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductAbstraction;
+		};
+		38CD37A02CC29598009D657A /* UserAbstraction */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserAbstraction;
+		};
+		38CD37A22CC2959F009D657A /* BasketDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BasketDomain;
+		};
+		38CD37A42CC2959F009D657A /* ProductDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductDomain;
+		};
+		38CD37A62CC2959F009D657A /* UserDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserDomain;
+		};
+		38CD37A82CC295A6009D657A /* BasketService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BasketService;
+		};
+		38CD37AA2CC295A6009D657A /* ProductService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductService;
+		};
+		38CD37AC2CC295A6009D657A /* UserService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserService;
+		};
+		38CD37AE2CC295AC009D657A /* BasketRepository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BasketRepository;
+		};
+		38CD37B02CC295AC009D657A /* ProductRepository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductRepository;
+		};
+		38CD37B22CC295AC009D657A /* UserRepository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserRepository;
+		};
+		38CD37B42CC29665009D657A /* API */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = API;
+		};
+		38F43DE12CBC0ADE002EACA3 /* LoginFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoginFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

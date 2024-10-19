@@ -21,7 +21,7 @@ xcuserdata/
 
 # Swift Package Manager
 #
-Packages/
+# Packages/
 .swiftpm/
 .build/
 Package.resolved
